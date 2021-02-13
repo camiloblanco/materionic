@@ -1,29 +1,22 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
       Prueba de material
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+  
   <div id="container">
-    <strong>Chose a friend: </strong>
-    <mat-form-field>
-      <mat-label>Ionites</mat-label>
-      <mat-select [(ngModel)]="ionite" name="ionite">
-        <mat-option value="Simon">Simon</mat-option>
-        <mat-option value="Max">Max</mat-option>
-        <mat-option value="Ben">Ben</mat-option>
-      </mat-select>
-    </mat-form-field>
+    <h1>Bienvenidos</h1>
+    <img src="../../assets/images/logo.png">
+    <mat-checkbox class="example-margin"> 
+        <button class="link" (click)="presentModal()">Acepto terminos y condiciones</button>
+    </mat-checkbox>
+    <div class="example-button-row">
+      <button mat-raised-button color="primary" (click)="enterMain()">entrar</button>
+    </div>
   </div>
 
-  
 </ion-content>
