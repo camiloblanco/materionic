@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Prueba de material
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Ready to create an app? </strong>
+    <mat-form-field>
+      <mat-label>Ionites</mat-label>
+      <mat-select [(ngModel)]="ionite" name="ionite">
+        <mat-option value="Simon">Simon</mat-option>
+        <mat-option value="Max">Max</mat-option>
+        <mat-option value="Ben">Ben</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  
+</ion-content>

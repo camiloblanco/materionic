@@ -1,0 +1,7 @@
+{
+  "name": "materionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
