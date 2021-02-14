@@ -13,7 +13,8 @@ export class MainPage implements OnInit {
   ngOnInit() {
   }
   //Metodo en el boton entrar para enlazar a pages/main
+  
   enterTest(){
-  this.router.navigateByUrl("test");
-}
+  //this.router.navigateByUrl("test");
+  }
 }
