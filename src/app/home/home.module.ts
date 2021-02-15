@@ -5,11 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 import { HomePage } from './home.page';
 
-//import the material module
-import { MaterialModule } from '../material.module';
-
 import { HomePageRoutingModule } from './home-routing.module';
-
 
 @NgModule({
   imports: [
@@ -17,7 +13,6 @@ import { HomePageRoutingModule } from './home-routing.module';
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    MaterialModule
   ],
   declarations: [HomePage]
 })

@@ -7,7 +7,6 @@ import { IonicModule } from '@ionic/angular';
 import { MainPageRoutingModule } from './main-routing.module';
 
 import { MainPage } from './main.page';
-import { MaterialModule } from 'src/app/material.module';
 
 @NgModule({
   imports: [
@@ -15,7 +14,6 @@ import { MaterialModule } from 'src/app/material.module';
     FormsModule,
     IonicModule,
     MainPageRoutingModule,
-    MaterialModule
   ],
   declarations: [MainPage]
 })
